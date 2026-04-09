@@ -1,0 +1,44 @@
+
+1
+
+Automatic Zoom
+UNL - FICH - Departamento de Inform ́atica - Ingenier ́ıa Inform ́atica
+Inteligencia Computacional
+Gu ́ıa de trabajos pr ́acticos 4
+Aprendizaje no supervisado
+Trabajos pr ́acticos
+Ejercicio 1: Implemente el algoritmo de
+entrenamiento de un SOM bidimensio-
+nal de forma que se pueda ver gr ́afi-
+camente el mapa topol ́ogico durante
+todo el proceso. Para poder observar
+el ordenamiento topol ́ogico, en el ma-
+pa grafique l ́ıneas de uni ́on entre pa-
+res de neuronas vecinas. Realice las
+pruebas de ordenamiento topol ́ogico
+con los patrones provistos en los ar-
+chivos circulo.csv y te.csv, usando
+un m ́aximo de 1000  ́epocas de entre-
+namiento. Dichos datos fueron gene-
+rados aleatoriamente con distribuci ́on
+uniforme dentro de un c ́ırculo de radio
+1 centrado en el origen y una T como
+muestra la figura.0 , 5
+0 , 5
+Para cada distribuci ́on grafique los datos de entrenamiento coloreando cada
+punto seg ́un la neurona ganadora correspondiente, y agregue el centroide de
+cada neurona con otro marcador.
+Repita el entrenamiento con los datos en T pero para un SOM unidimensional
+con la misma cantidad de neuronas.
+Ejercicio 2: Implemente el m ́etodo de clustering k-medias sobre el conjunto de
+datos Iris (GTP2) y compare las soluciones obtenidas con las de un SOM.
+Para esto obtenga las matrices de contingencia entre ambos m ́etodos y entre
+cada m ́etodo y las clases de referencia.
+Seleccione 2 dimensiones y grafique los datos coloreando cada punto seg ́un el
+grupo al que pertenece en la soluci ́on de k-medias y en la del SOM.
+Grafique las neuronas del SOM en 2D con una escala de colores seg ́un las
+frecuencias de activaci ́on para los datos de Iris. Indique adem ́as cu ́al es la clase
+de Iris que cada neurona.
+Ejercicio 3: Pruebe varios valores de k (por ejemplo entre 2 y 10) para el conjunto
+de datos Iris, calcule para cada k una m ́etrica de clustering (con sklearn) y
+encuentre el k  ́optimo para k-medias.
